@@ -7,9 +7,9 @@ void StrawberryCheesecakeTheme::onLoad()
 {
 	// Plugin doesnt load the gui stuff *right away* so you take x amount of ms for it to load.
 	// instantly close menu because we dont care about it, just need it to style everything.
-	cvarManager->executeCommand("sleep 100;openmenu StrawberryCheesecakeTheme;sleep 1;closemenu StrawberryCheesecakeTheme");
+	cvarManager->executeCommand("sleep 100;openmenu StrawberryCheesecakeTheme");
 	// unload the plugin because it is no longer needed
-	cvarManager->executeCommand("sleep 111;plugin unload strawberrycheesecaketheme");
+	cvarManager->executeCommand("sleep 1000;plugin unload strawberrycheesecaketheme");
 }
 void StrawberryCheesecakeTheme::RenderWindow()
 {
