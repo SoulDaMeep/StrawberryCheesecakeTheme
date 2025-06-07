@@ -39,6 +39,7 @@ if not exist "%pluginsCfg%" (
 find /i "%pluginLoadLine%" "%pluginsCfg%" > nul
 if errorlevel 1 (
     echo Adding "%pluginLoadLine%" to plugins.cfg...
+	echo. >> "%pluginsCfg%"
     echo %pluginLoadLine% >> "%pluginsCfg%"
 ) else (
     echo "%pluginLoadLine%" already exists in plugins.cfg.
