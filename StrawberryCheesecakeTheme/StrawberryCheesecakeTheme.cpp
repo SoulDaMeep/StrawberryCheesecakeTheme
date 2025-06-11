@@ -9,7 +9,7 @@ void StrawberryCheesecakeTheme::onLoad()
 	// instantly close menu because we dont care about it, just need it to style everything.
 	cvarManager->executeCommand("sleep 100;openmenu StrawberryCheesecakeTheme");
 	// unload the plugin because it is no longer needed
-	cvarManager->executeCommand("sleep 1000;plugin unload strawberrycheesecaketheme");
+	cvarManager->executeCommand("sleep 3000;plugin unload strawberrycheesecaketheme");
 }
 void StrawberryCheesecakeTheme::RenderWindow()
 {
