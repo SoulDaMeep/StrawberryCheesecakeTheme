@@ -1,6 +1,6 @@
 # StrawberryCheesecakeTheme
-
-**My StrawberryCheesecake theme for bakkesmod.**
+### Free Use!  Please Copy and make your own themes :)
+### Please use this almost as a template for your own designs :)
 
 ## Preview
 ![image](https://github.com/user-attachments/assets/4c5db574-f33a-4db6-a55d-4d92c49994ab)
